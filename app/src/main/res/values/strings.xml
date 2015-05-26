@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Change for Change</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="Charities">
+        <item>Pick a Charity</item>
+        <item>RedCross</item>
+        <item>St. Judes</item>
+        <item>ASPCA</item>
+    </string-array>
+    <string name="title_activity_deposit_made">DepositMadeActivity</string>
+    <string name="title_activity_donated_to_charity">DonatedToCharity</string>
+
+</resources>

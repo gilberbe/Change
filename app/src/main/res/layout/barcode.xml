@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#ff143b5d"
+    tools:context=".MyActivity">
+
+
+    <TextView
+        android:text="Welcome Nessie   "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcomeText"
+        android:layout_centerHorizontal="true"
+
+        android:layout_alignParentTop="true"
+        />
+
+    <Button
+        android:layout_width="200dip"
+        android:layout_height="100dip"
+        android:text="Donate"
+        android:background="#ffb1c3c7"
+        android:id="@+id/donatebutton"
+        android:layout_below="@+id/spinner"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="200dip"
+        android:layout_height="100dip"
+        android:text="Deposit"
+        android:background="#ffb1c3c7"
+        android:id="@+id/depositbutton"
+        android:layout_below="@+id/donatebutton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp" />
+
+    <Spinner
+        android:entries="@array/Charities"
+        android:layout_width="140dip"
+        android:layout_height="100dip"
+        android:id="@+id/spinner"
+        android:spinnerMode="dialog"
+        android:layout_below="@+id/welcomeText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp" />
+
+    <ImageView
+        android:layout_width="150dip"
+        android:layout_height="100dip"
+
+        android:id="@+id/imageView2"
+        android:src="@drawable/logo2"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>
